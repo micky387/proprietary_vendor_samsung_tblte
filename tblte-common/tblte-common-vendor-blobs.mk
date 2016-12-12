@@ -291,7 +291,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
     vendor/samsung/tblte-common/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
     vendor/samsung/tblte-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/tblte-common/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/samsung/tblte-common/proprietary/lib/drm/libomaplugin.so:system/lib/drm/libomaplugin.so \
     vendor/samsung/tblte-common/proprietary/lib/drm/libplayreadyplugin.so:system/lib/drm/libplayreadyplugin.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
