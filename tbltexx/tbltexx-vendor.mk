@@ -16,6 +16,8 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    com.qualcomm.location
+    com.qualcomm.location \
+    ConnectivityExt \
+    tcmclient
 
 $(call inherit-product, vendor/samsung/tbltexx/tbltexx-vendor-blobs.mk)
