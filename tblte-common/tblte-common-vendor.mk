@@ -16,8 +16,6 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    libmm-abl \
-    libtime_genoff \
-    TimeService
+    libmm-abl
 
 $(call inherit-product, vendor/samsung/tblte-common/tblte-common-vendor-blobs.mk)
