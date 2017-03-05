@@ -383,6 +383,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/samsung/tblte-common/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
     vendor/samsung/tblte-common/proprietary/lib/hw/sensorhubs.apq8084.so:system/lib/hw/sensorhubs.apq8084.so \
+    vendor/samsung/tblte-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/samsung/tblte-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    vendor/samsung/tblte-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/samsung/tblte-common/proprietary/bin/olsrd:system/bin/olsrd \
     vendor/samsung/tblte-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/tblte-common/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
