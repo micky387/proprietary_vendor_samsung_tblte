@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
+    vendor/samsung/tblte-common/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/samsung/tblte-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/tblte-common/proprietary/etc/firmware/audience-es705-fw.bin:system/etc/firmware/audience-es705-fw.bin \
     vendor/samsung/tblte-common/proprietary/etc/firmware/audience-es705-vs.bin:system/etc/firmware/audience-es705-vs.bin \
