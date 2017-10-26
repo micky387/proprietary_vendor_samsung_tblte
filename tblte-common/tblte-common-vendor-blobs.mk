@@ -313,12 +313,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/samsung/tblte-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/tblte-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/samsung/tblte-common/proprietary/bin/vcsFPService:system/bin/vcsFPService \
-    vendor/samsung/tblte-common/proprietary/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
-    vendor/samsung/tblte-common/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
-    vendor/samsung/tblte-common/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
-    vendor/samsung/tblte-common/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
-    vendor/samsung/tblte-common/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
