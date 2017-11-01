@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tbltexx/proprietary/lib/libbt-codec_sshd.so:system/lib/libbt-codec_sshd.so \
     vendor/samsung/tbltexx/proprietary/lib/libshdace.so:system/lib/libshdace.so \
     vendor/samsung/tbltexx/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
+    vendor/samsung/tbltexx/proprietary/lib/libprotobuf-cpp-lite.so:system/lib/libprotobuf-cpp-lite.so \
     vendor/samsung/tbltexx/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/samsung/tbltexx/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/tbltexx/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
