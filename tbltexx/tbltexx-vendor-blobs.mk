@@ -44,10 +44,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tbltexx/proprietary/bin/qcks:system/bin/qcks \
     vendor/samsung/tbltexx/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/tbltexx/proprietary/bin/rild:system/bin/rild \
-    vendor/samsung/tbltexx/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     vendor/samsung/tbltexx/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/tbltexx/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/tbltexx/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/samsung/tbltexx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/tbltexx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/tbltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
