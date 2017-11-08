@@ -367,7 +367,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/samsung/tblte-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/samsung/tblte-common/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
     vendor/samsung/tblte-common/proprietary/lib/hw/sensors.apq8084.so:system/vendor/lib/hw/sensors.apq8084.so \
