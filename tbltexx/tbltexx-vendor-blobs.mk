@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tbltexx/proprietary/lib/libshdace.so:system/lib/libshdace.so \
     vendor/samsung/tbltexx/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
     vendor/samsung/tbltexx/proprietary/lib/libprotobuf-cpp-lite.so:system/lib/libprotobuf-cpp-lite.so \
-    vendor/samsung/tbltexx/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/samsung/tbltexx/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/tbltexx/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/samsung/tbltexx/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
@@ -50,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tbltexx/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/samsung/tbltexx/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/tbltexx/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/samsung/tbltexx/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
     vendor/samsung/tbltexx/proprietary/bin/efsks:system/bin/efsks \
     vendor/samsung/tbltexx/proprietary/bin/ks:system/bin/ks \
     vendor/samsung/tbltexx/proprietary/bin/mdm_helper:system/bin/mdm_helper \
