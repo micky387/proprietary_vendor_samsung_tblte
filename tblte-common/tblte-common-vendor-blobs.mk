@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/samsung/tblte-common/proprietary/lib/libmysound.so:system/lib/libmysound.so \
     vendor/samsung/tblte-common/proprietary/lib/libssaudio-client.so:system/lib/libssaudio-client.so \
-    vendor/samsung/tblte-common/proprietary/lib/hw/audio.tms.default.so:system/lib/hw/audio.tms.default.so \
+    vendor/samsung/tblte-common/proprietary/lib/hw/audio.tms.default.so:system/vendor/lib/hw/audio.tms.default.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/vendor/firmware/bcm4358A1_V0054.0095.hcd:system/vendor/firmware/bcm4358A1_V0054.0095.hcd \
     vendor/samsung/tblte-common/proprietary/vendor/firmware/bcm4358A1_V0054.0095_wisol.hcd:system/vendor/firmware/bcm4358A1_V0054.0095_wisol.hcd \
     vendor/samsung/tblte-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/samsung/tblte-common/proprietary/lib/hw/camera.apq8084.so:system/lib/hw/camera.vendor.apq8084.so \
+    vendor/samsung/tblte-common/proprietary/lib/hw/camera.apq8084.so:system/vendor/lib/hw/camera.vendor.apq8084.so \
     vendor/samsung/tblte-common/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
     vendor/samsung/tblte-common/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
     vendor/samsung/tblte-common/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
@@ -308,7 +308,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/tblte-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/samsung/tblte-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/tblte-common/proprietary/lib/hw/gps.default.so:system/vendor/lib/hw/gps.default.so \
     vendor/samsung/tblte-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/tblte-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/samsung/tblte-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
@@ -369,20 +369,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/samsung/tblte-common/proprietary/lib/hw/nfc_nci.apq8084.so:system/lib/hw/nfc_nci.apq8084.so \
+    vendor/samsung/tblte-common/proprietary/lib/hw/nfc_nci.apq8084.so:system/vendor/lib/hw/nfc_nci.apq8084.so \
     vendor/samsung/tblte-common/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/samsung/tblte-common/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
-    vendor/samsung/tblte-common/proprietary/lib/hw/sensors.apq8084.so:system/lib/hw/sensors.apq8084.so \
+    vendor/samsung/tblte-common/proprietary/lib/hw/sensors.apq8084.so:system/vendor/lib/hw/sensors.apq8084.so \
     vendor/samsung/tblte-common/proprietary/lib/libhr.so:system/lib/libhr.so \
     vendor/samsung/tblte-common/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
     vendor/samsung/tblte-common/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
     vendor/samsung/tblte-common/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/samsung/tblte-common/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
-    vendor/samsung/tblte-common/proprietary/lib/hw/sensorhubs.apq8084.so:system/lib/hw/sensorhubs.apq8084.so \
+    vendor/samsung/tblte-common/proprietary/lib/hw/sensorhubs.apq8084.so:system/vendor/lib/hw/sensorhubs.apq8084.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/samsung/tblte-common/proprietary/bin/olsrd:system/bin/olsrd \
     vendor/samsung/tblte-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
