@@ -345,7 +345,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/samsung/tblte-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/samsung/tblte-common/proprietary/bin/irsc_util:system/vendor/bin/irsc_util \
-    vendor/samsung/tblte-common/proprietary/etc/sec_config:system/vendor/etc/sec_config \
+    vendor/samsung/tblte-common/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/samsung/tblte-common/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
@@ -360,6 +360,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/samsung/tblte-common/proprietary/lib/hw/nfc_nci.apq8084.so:system/vendor/lib/hw/nfc_nci.apq8084.so \
     vendor/samsung/tblte-common/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
+    vendor/samsung/tblte-common/proprietary/etc/sec_s3fwrn5_rfreg.bin:system/etc/sec_s3fwrn5_rfreg.bin \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
