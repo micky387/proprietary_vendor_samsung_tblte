@@ -39,7 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tbltexx/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/tbltexx/proprietary/bin/bridgemgrd:system/vendor/bin/bridgemgrd \
     vendor/samsung/tbltexx/proprietary/bin/efsks:system/vendor/bin/efsks \
-    vendor/samsung/tbltexx/proprietary/bin/ks:system/vendor/bin/ks \
+    vendor/samsung/tbltexx/proprietary/bin/ks:system/bin/ks \
     vendor/samsung/tbltexx/proprietary/bin/mdm_helper:system/vendor/bin/mdm_helper \
     vendor/samsung/tbltexx/proprietary/bin/mdm_helper_proxy:system/vendor/bin/mdm_helper_proxy \
     vendor/samsung/tbltexx/proprietary/bin/netmgrd:system/vendor/bin/netmgrd \
