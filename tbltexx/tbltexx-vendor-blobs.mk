@@ -16,7 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/tbltexx/proprietary/lib/libqdutils.so:system/vendor/lib/libqdutils.so \
-    vendor/samsung/tbltexx/proprietary/lib/libprotobuf-cpp-full.so:system/vendor/lib/libprotobuf-cpp-full.so \
+    vendor/samsung/tbltexx/proprietary/lib/libprotobuf-cpp-M.so:system/vendor/lib/libprotobuf-cpp-M.so \
     vendor/samsung/tbltexx/proprietary/lib/libprotobuf-cpp-lite.so:system/vendor/lib/libprotobuf-cpp-lite.so \
     vendor/samsung/tbltexx/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/tbltexx/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
