@@ -361,6 +361,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/lib/hw/nfc_nci.apq8084.so:system/vendor/lib/hw/nfc_nci.apq8084.so \
     vendor/samsung/tblte-common/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
     vendor/samsung/tblte-common/proprietary/etc/sec_s3fwrn5_rfreg.bin:system/etc/sec_s3fwrn5_rfreg.bin \
+    vendor/samsung/tblte-common/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
