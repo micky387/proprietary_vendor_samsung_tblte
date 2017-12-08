@@ -368,6 +368,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
     vendor/samsung/tblte-common/proprietary/lib/hw/sensors.apq8084.so:system/vendor/lib/hw/sensors.apq8084.so \
     vendor/samsung/tblte-common/proprietary/lib/libhr.so:system/lib/libhr.so \
+    vendor/samsung/tblte-common/proprietary/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/samsung/tblte-common/proprietary/bin/sensorhubservice:system/vendor/bin/sensorhubservice \
     vendor/samsung/tblte-common/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
     vendor/samsung/tblte-common/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
