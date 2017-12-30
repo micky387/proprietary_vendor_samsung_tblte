@@ -27,17 +27,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/samsung/tblte-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
-    vendor/samsung/tblte-common/proprietary/etc/firmware/audience-es705-fw.bin:system/etc/firmware/audience-es705-fw.bin \
-    vendor/samsung/tblte-common/proprietary/etc/firmware/audience-es705-vs.bin:system/etc/firmware/audience-es705-vs.bin \
+    vendor/samsung/tblte-common/proprietary/etc/firmware/audience-es705-fw.bin:system/vendor/firmware/audience-es705-fw.bin \
+    vendor/samsung/tblte-common/proprietary/etc/firmware/audience-es705-vs.bin:system/vendor/firmware/audience-es705-vs.bin \
     vendor/samsung/tblte-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/tblte-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
     vendor/samsung/tblte-common/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
     vendor/samsung/tblte-common/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/samsung/tblte-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/samsung/tblte-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/samsung/tblte-common/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
-    vendor/samsung/tblte-common/proprietary/lib/libmysound.so:system/lib/libmysound.so \
-    vendor/samsung/tblte-common/proprietary/lib/libssaudio-client.so:system/lib/libssaudio-client.so \
+    vendor/samsung/tblte-common/proprietary/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
+    vendor/samsung/tblte-common/proprietary/lib/libmysound.so:system/vendor/lib/libmysound.so \
+    vendor/samsung/tblte-common/proprietary/lib/libssaudio-client.so:system/vendor/lib/libssaudio-client.so \
     vendor/samsung/tblte-common/proprietary/lib/hw/audio.tms.default.so:system/vendor/lib/hw/audio.tms.default.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
@@ -51,19 +51,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/vendor/firmware/bcm4358A1_V0054.0095_wisol.hcd:system/vendor/firmware/bcm4358A1_V0054.0095_wisol.hcd \
     vendor/samsung/tblte-common/proprietary/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/samsung/tblte-common/proprietary/lib/hw/camera.apq8084.so:system/vendor/lib/hw/camera.vendor.apq8084.so \
-    vendor/samsung/tblte-common/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
-    vendor/samsung/tblte-common/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
-    vendor/samsung/tblte-common/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
-    vendor/samsung/tblte-common/proprietary/lib/libmmcamera_cac3_lib.so:system/lib/libmmcamera_cac3_lib.so \
-    vendor/samsung/tblte-common/proprietary/lib/libmmcamera_fidelix_eeprom.so:system/lib/libmmcamera_fidelix_eeprom.so \
-    vendor/samsung/tblte-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/samsung/tblte-common/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/samsung/tblte-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/samsung/tblte-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/samsung/tblte-common/proprietary/lib/libmmqjpeg_codec.so:system/lib/libmmqjpeg_codec.so \
-    vendor/samsung/tblte-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/samsung/tblte-common/proprietary/lib/libqomx_jpegenc.so:system/lib/libqomx_jpegenc.so \
-    vendor/samsung/tblte-common/proprietary/lib/libvdis.so:system/lib/libvdis.so \
+    vendor/samsung/tblte-common/proprietary/lib/libarcsoft_nighthawk.so:system/vendor/lib/libarcsoft_nighthawk.so \
+    vendor/samsung/tblte-common/proprietary/lib/libliveframework.so:system/vendor/lib/libliveframework.so \
+    vendor/samsung/tblte-common/proprietary/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
+    vendor/samsung/tblte-common/proprietary/lib/libmmcamera_cac3_lib.so:system/vendor/lib/libmmcamera_cac3_lib.so \
+    vendor/samsung/tblte-common/proprietary/lib/libmmcamera_fidelix_eeprom.so:system/vendor/lib/libmmcamera_fidelix_eeprom.so \
+    vendor/samsung/tblte-common/proprietary/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
+    vendor/samsung/tblte-common/proprietary/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
+    vendor/samsung/tblte-common/proprietary/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
+    vendor/samsung/tblte-common/proprietary/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+    vendor/samsung/tblte-common/proprietary/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+    vendor/samsung/tblte-common/proprietary/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
+    vendor/samsung/tblte-common/proprietary/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/samsung/tblte-common/proprietary/lib/libvdis.so:system/vendor/lib/libvdis.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:system/vendor/lib/libactuator_ak7345_camcorder.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libactuator_ak7345_camera.so:system/vendor/lib/libactuator_ak7345_camera.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -124,108 +124,108 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libTsAe.so:system/lib/H16UL_libTsAe.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libTsAf.so:system/lib/H16UL_libTsAf.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libTs_J_Accm.so:system/lib/H16UL_libTs_J_Accm.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libTs_J_Awb.so:system/lib/H16UL_libTs_J_Awb.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_default_video.so:system/lib/H16UL_libchromatix_s5k2p2xx_default_video.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_foodmode_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_foodmode_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_golfshot.so:system/lib/H16UL_libchromatix_s5k2p2xx_golfshot.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_golfshot_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_golfshot_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_liveshot_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_hdr_liveshot_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_preview.so:system/lib/H16UL_libchromatix_s5k2p2xx_hdr_preview.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_preview_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_hdr_preview_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_preview_lls_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_hdr_preview_lls_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_uhd_video.so:system/lib/H16UL_libchromatix_s5k2p2xx_hdr_uhd_video.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_uhd_video_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_hdr_uhd_video_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_video.so:system/lib/H16UL_libchromatix_s5k2p2xx_hdr_video.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_video_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_hdr_video_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_zslshot_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_hdr_zslshot_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_zslshot_lls_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_hdr_zslshot_lls_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hfr_1080p_b.so:system/lib/H16UL_libchromatix_s5k2p2xx_hfr_1080p_b.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hfr_1080p_b_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_hfr_1080p_b_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hfr_120.so:system/lib/H16UL_libchromatix_s5k2p2xx_hfr_120.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hfr_120_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_hfr_120_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_liveshot_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_liveshot_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_pip.so:system/lib/H16UL_libchromatix_s5k2p2xx_pip.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_preview.so:system/lib/H16UL_libchromatix_s5k2p2xx_preview.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_preview_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_preview_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_preview_drama_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_preview_drama_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_preview_lls_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_preview_lls_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_preview_panorama_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_preview_panorama_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_preview_pip_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_preview_pip_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_shotmode_preview.so:system/lib/H16UL_libchromatix_s5k2p2xx_shotmode_preview.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_shotmode_preview_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_shotmode_preview_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_shotmode_zslshot_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_shotmode_zslshot_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_uhd_video.so:system/lib/H16UL_libchromatix_s5k2p2xx_uhd_video.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_uhd_video_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_uhd_video_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_video_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_video_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_iso100_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_iso100_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_iso200_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_iso200_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_iso400_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_iso400_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_iso800_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_iso800_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_lls_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_lls_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_zslshot_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_iso100_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_zslshot_iso100_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_iso200_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_zslshot_iso200_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_iso400_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_zslshot_iso400_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_iso800_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_zslshot_iso800_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_lls_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_zslshot_lls_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_pip_cpp.so:system/lib/H16UL_libchromatix_s5k2p2xx_zslshot_pip_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libTsAe.so:system/lib/H16US_libTsAe.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libTsAf.so:system/lib/H16US_libTsAf.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libTs_J_Accm.so:system/lib/H16US_libTs_J_Accm.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libTs_J_Awb.so:system/lib/H16US_libTs_J_Awb.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_default_video.so:system/lib/H16US_libchromatix_imx240_default_video.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_foodmode_cpp.so:system/lib/H16US_libchromatix_imx240_foodmode_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_golfshot.so:system/lib/H16US_libchromatix_imx240_golfshot.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_golfshot_cpp.so:system/lib/H16US_libchromatix_imx240_golfshot_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_liveshot_cpp.so:system/lib/H16US_libchromatix_imx240_hdr_liveshot_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_preview.so:system/lib/H16US_libchromatix_imx240_hdr_preview.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_preview_cpp.so:system/lib/H16US_libchromatix_imx240_hdr_preview_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_preview_lls_cpp.so:system/lib/H16US_libchromatix_imx240_hdr_preview_lls_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_uhd_video.so:system/lib/H16US_libchromatix_imx240_hdr_uhd_video.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_uhd_video_cpp.so:system/lib/H16US_libchromatix_imx240_hdr_uhd_video_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_video.so:system/lib/H16US_libchromatix_imx240_hdr_video.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_video_cpp.so:system/lib/H16US_libchromatix_imx240_hdr_video_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_zslshot_cpp.so:system/lib/H16US_libchromatix_imx240_hdr_zslshot_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_zslshot_lls_cpp.so:system/lib/H16US_libchromatix_imx240_hdr_zslshot_lls_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hfr_1080p_b.so:system/lib/H16US_libchromatix_imx240_hfr_1080p_b.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hfr_1080p_b_cpp.so:system/lib/H16US_libchromatix_imx240_hfr_1080p_b_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hfr_120.so:system/lib/H16US_libchromatix_imx240_hfr_120.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hfr_120_cpp.so:system/lib/H16US_libchromatix_imx240_hfr_120_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_liveshot_cpp.so:system/lib/H16US_libchromatix_imx240_liveshot_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_pip.so:system/lib/H16US_libchromatix_imx240_pip.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_preview.so:system/lib/H16US_libchromatix_imx240_preview.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_preview_cpp.so:system/lib/H16US_libchromatix_imx240_preview_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_preview_drama_cpp.so:system/lib/H16US_libchromatix_imx240_preview_drama_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_preview_lls_cpp.so:system/lib/H16US_libchromatix_imx240_preview_lls_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_preview_panorama_cpp.so:system/lib/H16US_libchromatix_imx240_preview_panorama_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_preview_pip_cpp.so:system/lib/H16US_libchromatix_imx240_preview_pip_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_shotmode_preview.so:system/lib/H16US_libchromatix_imx240_shotmode_preview.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_shotmode_preview_cpp.so:system/lib/H16US_libchromatix_imx240_shotmode_preview_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_shotmode_zslshot_cpp.so:system/lib/H16US_libchromatix_imx240_shotmode_zslshot_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_uhd_video.so:system/lib/H16US_libchromatix_imx240_uhd_video.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_uhd_video_cpp.so:system/lib/H16US_libchromatix_imx240_uhd_video_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_video_cpp.so:system/lib/H16US_libchromatix_imx240_video_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_2_4_cpp.so:system/lib/H16US_libchromatix_imx240_zslshot_2_4_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_2_4_iso100_cpp.so:system/lib/H16US_libchromatix_imx240_zslshot_2_4_iso100_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_2_4_iso200_cpp.so:system/lib/H16US_libchromatix_imx240_zslshot_2_4_iso200_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_2_4_iso400_cpp.so:system/lib/H16US_libchromatix_imx240_zslshot_2_4_iso400_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_2_4_iso800_cpp.so:system/lib/H16US_libchromatix_imx240_zslshot_2_4_iso800_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_2_4_lls_cpp.so:system/lib/H16US_libchromatix_imx240_zslshot_2_4_lls_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_cpp.so:system/lib/H16US_libchromatix_imx240_zslshot_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_iso100_cpp.so:system/lib/H16US_libchromatix_imx240_zslshot_iso100_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_iso200_cpp.so:system/lib/H16US_libchromatix_imx240_zslshot_iso200_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_iso400_cpp.so:system/lib/H16US_libchromatix_imx240_zslshot_iso400_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_iso800_cpp.so:system/lib/H16US_libchromatix_imx240_zslshot_iso800_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_lls_cpp.so:system/lib/H16US_libchromatix_imx240_zslshot_lls_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_pip_cpp.so:system/lib/H16US_libchromatix_imx240_zslshot_pip_cpp.so \
-    vendor/samsung/tblte-common/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
-    vendor/samsung/tblte-common/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
-    vendor/samsung/tblte-common/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
-    vendor/samsung/tblte-common/proprietary/lib/libTs_J_Awb.so:system/lib/libTs_J_Awb.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libTsAe.so:system/vendor/lib/H16UL_libTsAe.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libTsAf.so:system/vendor/lib/H16UL_libTsAf.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libTs_J_Accm.so:system/vendor/lib/H16UL_libTs_J_Accm.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libTs_J_Awb.so:system/vendor/lib/H16UL_libTs_J_Awb.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_default_video.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_default_video.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_foodmode_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_foodmode_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_golfshot.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_golfshot.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_golfshot_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_golfshot_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_liveshot_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_hdr_liveshot_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_preview.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_hdr_preview.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_preview_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_hdr_preview_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_preview_lls_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_hdr_preview_lls_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_uhd_video.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_hdr_uhd_video.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_uhd_video_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_hdr_uhd_video_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_video.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_hdr_video.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_video_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_hdr_video_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_zslshot_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_hdr_zslshot_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hdr_zslshot_lls_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_hdr_zslshot_lls_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hfr_1080p_b.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_hfr_1080p_b.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hfr_1080p_b_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_hfr_1080p_b_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hfr_120.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_hfr_120.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_hfr_120_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_hfr_120_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_liveshot_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_liveshot_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_pip.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_pip.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_preview.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_preview.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_preview_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_preview_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_preview_drama_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_preview_drama_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_preview_lls_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_preview_lls_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_preview_panorama_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_preview_panorama_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_preview_pip_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_preview_pip_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_shotmode_preview.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_shotmode_preview.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_shotmode_preview_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_shotmode_preview_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_shotmode_zslshot_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_shotmode_zslshot_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_uhd_video.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_uhd_video.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_uhd_video_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_uhd_video_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_video_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_video_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_iso100_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_iso100_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_iso200_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_iso200_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_iso400_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_iso400_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_iso800_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_iso800_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_lls_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_zslshot_2_4_lls_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_zslshot_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_iso100_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_zslshot_iso100_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_iso200_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_zslshot_iso200_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_iso400_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_zslshot_iso400_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_iso800_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_zslshot_iso800_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_lls_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_zslshot_lls_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16UL_libchromatix_s5k2p2xx_zslshot_pip_cpp.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_zslshot_pip_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libTsAe.so:system/vendor/lib/H16US_libTsAe.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libTsAf.so:system/vendor/lib/H16US_libTsAf.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libTs_J_Accm.so:system/vendor/lib/H16US_libTs_J_Accm.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libTs_J_Awb.so:system/vendor/lib/H16US_libTs_J_Awb.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_default_video.so:system/vendor/lib/H16US_libchromatix_imx240_default_video.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_foodmode_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_foodmode_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_golfshot.so:system/vendor/lib/H16US_libchromatix_imx240_golfshot.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_golfshot_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_golfshot_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_liveshot_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_hdr_liveshot_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_preview.so:system/vendor/lib/H16US_libchromatix_imx240_hdr_preview.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_preview_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_hdr_preview_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_preview_lls_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_hdr_preview_lls_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_uhd_video.so:system/vendor/lib/H16US_libchromatix_imx240_hdr_uhd_video.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_uhd_video_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_hdr_uhd_video_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_video.so:system/vendor/lib/H16US_libchromatix_imx240_hdr_video.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_video_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_hdr_video_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_zslshot_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_hdr_zslshot_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hdr_zslshot_lls_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_hdr_zslshot_lls_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hfr_1080p_b.so:system/vendor/lib/H16US_libchromatix_imx240_hfr_1080p_b.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hfr_1080p_b_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_hfr_1080p_b_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hfr_120.so:system/vendor/lib/H16US_libchromatix_imx240_hfr_120.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_hfr_120_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_hfr_120_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_liveshot_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_liveshot_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_pip.so:system/vendor/lib/H16US_libchromatix_imx240_pip.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_preview.so:system/vendor/lib/H16US_libchromatix_imx240_preview.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_preview_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_preview_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_preview_drama_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_preview_drama_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_preview_lls_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_preview_lls_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_preview_panorama_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_preview_panorama_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_preview_pip_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_preview_pip_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_shotmode_preview.so:system/vendor/lib/H16US_libchromatix_imx240_shotmode_preview.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_shotmode_preview_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_shotmode_preview_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_shotmode_zslshot_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_shotmode_zslshot_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_uhd_video.so:system/vendor/lib/H16US_libchromatix_imx240_uhd_video.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_uhd_video_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_uhd_video_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_video_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_video_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_2_4_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_zslshot_2_4_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_2_4_iso100_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_zslshot_2_4_iso100_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_2_4_iso200_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_zslshot_2_4_iso200_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_2_4_iso400_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_zslshot_2_4_iso400_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_2_4_iso800_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_zslshot_2_4_iso800_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_2_4_lls_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_zslshot_2_4_lls_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_zslshot_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_iso100_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_zslshot_iso100_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_iso200_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_zslshot_iso200_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_iso400_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_zslshot_iso400_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_iso800_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_zslshot_iso800_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_lls_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_zslshot_lls_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/H16US_libchromatix_imx240_zslshot_pip_cpp.so:system/vendor/lib/H16US_libchromatix_imx240_zslshot_pip_cpp.so \
+    vendor/samsung/tblte-common/proprietary/lib/libTsAe.so:system/vendor/lib/libTsAe.so \
+    vendor/samsung/tblte-common/proprietary/lib/libTsAf.so:system/vendor/lib/libTsAf.so \
+    vendor/samsung/tblte-common/proprietary/lib/libTs_J_Accm.so:system/vendor/lib/libTs_J_Accm.so \
+    vendor/samsung/tblte-common/proprietary/lib/libTs_J_Awb.so:system/vendor/lib/libTs_J_Awb.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/H16UL_libchromatix_s5k2p2xx_common.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_common.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/H16UL_libchromatix_s5k2p2xx_common_res0.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_common_res0.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/H16UL_libchromatix_s5k2p2xx_common_res1.so:system/vendor/lib/H16UL_libchromatix_s5k2p2xx_common_res1.so \
@@ -271,31 +271,31 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libchromatix_s5k8b1yx_vt_hd_cpp.so:system/vendor/lib/libchromatix_s5k8b1yx_vt_hd_cpp.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libchromatix_s5k8b1yx_zslshot_cpp.so:system/vendor/lib/libchromatix_s5k8b1yx_zslshot_cpp.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libchromatix_s5k8b1yx_zslshot_lls_cpp.so:system/vendor/lib/libchromatix_s5k8b1yx_zslshot_lls_cpp.so \
-    vendor/samsung/tblte-common/proprietary/cameradata/F16UL_Isp1_s5k2p2xx.bin:system/cameradata/F16UL_Isp1_s5k2p2xx.bin \
-    vendor/samsung/tblte-common/proprietary/cameradata/F16US_Isp1_imx240.bin:system/cameradata/F16US_Isp1_imx240.bin \
-    vendor/samsung/tblte-common/proprietary/cameradata/H16UL_Isp1_s5k2p2xx.bin:system/cameradata/H16UL_Isp1_s5k2p2xx.bin \
-    vendor/samsung/tblte-common/proprietary/cameradata/H16US_Isp1_imx240.bin:system/cameradata/H16US_Isp1_imx240.bin \
-    vendor/samsung/tblte-common/proprietary/cameradata/Master1.bin:system/cameradata/Master1.bin \
-    vendor/samsung/tblte-common/proprietary/cameradata/OIS_63A.bin:system/cameradata/OIS_63A.bin \
-    vendor/samsung/tblte-common/proprietary/cameradata/OIS_63B.bin:system/cameradata/OIS_63B.bin \
-    vendor/samsung/tblte-common/proprietary/cameradata/cal_data_LSCmaster.bin:system/cameradata/cal_data_LSCmaster.bin \
-    vendor/samsung/tblte-common/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    vendor/samsung/tblte-common/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
-    vendor/samsung/tblte-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/samsung/tblte-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/samsung/tblte-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/samsung/tblte-common/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/samsung/tblte-common/proprietary/etc/H16UL_s5k2p2xx_module_info.xml:system/etc/H16UL_s5k2p2xx_module_info.xml \
-    vendor/samsung/tblte-common/proprietary/etc/H16US_imx240_module_info.xml:system/etc/H16US_imx240_module_info.xml \
+    vendor/samsung/tblte-common/proprietary/cameradata/F16UL_Isp1_s5k2p2xx.bin:system/vendor/cameradata/F16UL_Isp1_s5k2p2xx.bin \
+    vendor/samsung/tblte-common/proprietary/cameradata/F16US_Isp1_imx240.bin:system/vendor/cameradata/F16US_Isp1_imx240.bin \
+    vendor/samsung/tblte-common/proprietary/cameradata/H16UL_Isp1_s5k2p2xx.bin:system/vendor/cameradata/H16UL_Isp1_s5k2p2xx.bin \
+    vendor/samsung/tblte-common/proprietary/cameradata/H16US_Isp1_imx240.bin:system/vendor/cameradata/H16US_Isp1_imx240.bin \
+    vendor/samsung/tblte-common/proprietary/cameradata/Master1.bin:system/vendor/cameradata/Master1.bin \
+    vendor/samsung/tblte-common/proprietary/cameradata/OIS_63A.bin:system/vendor/cameradata/OIS_63A.bin \
+    vendor/samsung/tblte-common/proprietary/cameradata/OIS_63B.bin:system/vendor/cameradata/OIS_63B.bin \
+    vendor/samsung/tblte-common/proprietary/cameradata/cal_data_LSCmaster.bin:system/vendor/cameradata/cal_data_LSCmaster.bin \
+    vendor/samsung/tblte-common/proprietary/cameradata/datapattern_420sp.yuv:system/vendor/cameradata/datapattern_420sp.yuv \
+    vendor/samsung/tblte-common/proprietary/cameradata/datapattern_front_420sp.yuv:system/vendor/cameradata/datapattern_front_420sp.yuv \
+    vendor/samsung/tblte-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/samsung/tblte-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/samsung/tblte-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/samsung/tblte-common/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/samsung/tblte-common/proprietary/etc/H16UL_s5k2p2xx_module_info.xml:system/vendor/etc/H16UL_s5k2p2xx_module_info.xml \
+    vendor/samsung/tblte-common/proprietary/etc/H16US_imx240_module_info.xml:system/vendor/etc/H16US_imx240_module_info.xml \
     vendor/samsung/tblte-common/proprietary/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/samsung/tblte-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/tblte-common/proprietary/bin/qseecomd:system/vendor/bin/qseecomd \
-    vendor/samsung/tblte-common/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
-    vendor/samsung/tblte-common/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
-    vendor/samsung/tblte-common/proprietary/lib/drm/libomaplugin.so:system/lib/drm/libomaplugin.so \
-    vendor/samsung/tblte-common/proprietary/lib/drm/libplayreadyplugin.so:system/lib/drm/libplayreadyplugin.so \
+    vendor/samsung/tblte-common/proprietary/lib/libdrmframework.so:system/vendor/lib/libdrmframework.so \
+    vendor/samsung/tblte-common/proprietary/lib/libdrmframework_jni.so:system/vendor/lib/libdrmframework_jni.so \
+    vendor/samsung/tblte-common/proprietary/lib/drm/libomaplugin.so:system/vendor/lib/drm/libomaplugin.so \
+    vendor/samsung/tblte-common/proprietary/lib/drm/libplayreadyplugin.so:system/vendor/lib/drm/libplayreadyplugin.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
@@ -309,10 +309,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/tblte-common/proprietary/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/samsung/tblte-common/proprietary/lib/hw/gps.default.so:system/vendor/lib/hw/gps.default.so \
-    vendor/samsung/tblte-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/samsung/tblte-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/samsung/tblte-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/samsung/tblte-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/samsung/tblte-common/proprietary/lib/libgps.utils.so:system/vendor/lib/libgps.utils.so \
+    vendor/samsung/tblte-common/proprietary/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
+    vendor/samsung/tblte-common/proprietary/lib/libloc_eng.so:system/vendor/lib/libloc_eng.so \
+    vendor/samsung/tblte-common/proprietary/lib/libloc_core.so:system/vendor/lib/libloc_core.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
@@ -342,8 +342,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/samsung/tblte-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/samsung/tblte-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    vendor/samsung/tblte-common/proprietary/etc/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
+    vendor/samsung/tblte-common/proprietary/etc/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     vendor/samsung/tblte-common/proprietary/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/samsung/tblte-common/proprietary/etc/sec_config:system/vendor/etc/sec_config \
     vendor/samsung/tblte-common/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
@@ -365,14 +365,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/samsung/tblte-common/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
+    vendor/samsung/tblte-common/proprietary/lib/libdetectmodem.so:system/vendor/lib/libdetectmodem.so \
     vendor/samsung/tblte-common/proprietary/lib/hw/sensors.apq8084.so:system/vendor/lib/sensors.vendor.apq8084.so \
-    vendor/samsung/tblte-common/proprietary/lib/libhr.so:system/lib/libhr.so \
+    vendor/samsung/tblte-common/proprietary/lib/libhr.so:system/vendor/lib/libhr.so \
     vendor/samsung/tblte-common/proprietary/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/samsung/tblte-common/proprietary/bin/sensorhubservice:system/vendor/bin/sensorhubservice \
-    vendor/samsung/tblte-common/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
-    vendor/samsung/tblte-common/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
-    vendor/samsung/tblte-common/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
+    vendor/samsung/tblte-common/proprietary/lib/libgnustl_shared.so:system/vendor/lib/libgnustl_shared.so \
+    vendor/samsung/tblte-common/proprietary/lib/libsensorhub.so:system/vendor/lib/libsensorhub.so \
+    vendor/samsung/tblte-common/proprietary/lib/libsensorhubservice.so:system/vendor/lib/libsensorhubservice.so \
     vendor/samsung/tblte-common/proprietary/lib/hw/sensorhubs.apq8084.so:system/vendor/lib/hw/sensorhubs.apq8084.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/samsung/tblte-common/proprietary/bin/olsrd:system/vendor/bin/olsrd \
