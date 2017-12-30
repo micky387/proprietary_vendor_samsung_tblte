@@ -376,25 +376,25 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/lib/hw/sensorhubs.apq8084.so:system/vendor/lib/hw/sensorhubs.apq8084.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/samsung/tblte-common/proprietary/bin/olsrd:system/vendor/bin/olsrd \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_mfg.txt_a0:system/etc/wifi/nvram_mfg.txt_a0 \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_mfg.txt_a0_r10:system/etc/wifi/nvram_mfg.txt_a0_r10 \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_mfg.txt_r10:system/etc/wifi/nvram_mfg.txt_r10 \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_mfg.txt_wisol:system/etc/wifi/nvram_mfg.txt_wisol \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_mfg.txt_wisol_r10:system/etc/wifi/nvram_mfg.txt_wisol_r10 \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_net.txt_a0:system/etc/wifi/nvram_net.txt_a0 \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_net.txt_a0_r10:system/etc/wifi/nvram_net.txt_a0_r10 \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_net.txt_r10:system/etc/wifi/nvram_net.txt_r10 \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_net.txt_wisol:system/etc/wifi/nvram_net.txt_wisol \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_net.txt_wisol_r10:system/etc/wifi/nvram_net.txt_wisol_r10 \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/olsrd.conf:system/etc/wifi/olsrd.conf \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/vendor/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/bcmdhd_ibss.bin:system/vendor/etc/wifi/bcmdhd_ibss.bin \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/bcmdhd_mfg.bin:system/vendor/etc/wifi/bcmdhd_mfg.bin \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/bcmdhd_sta.bin:system/vendor/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/cred.conf:system/vendor/etc/wifi/cred.conf \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_mfg.txt:system/vendor/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_mfg.txt_a0:system/vendor/etc/wifi/nvram_mfg.txt_a0 \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_mfg.txt_a0_r10:system/vendor/etc/wifi/nvram_mfg.txt_a0_r10 \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_mfg.txt_r10:system/vendor/etc/wifi/nvram_mfg.txt_r10 \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_mfg.txt_wisol:system/vendor/etc/wifi/nvram_mfg.txt_wisol \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_mfg.txt_wisol_r10:system/vendor/etc/wifi/nvram_mfg.txt_wisol_r10 \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_net.txt:system/vendor/etc/wifi/nvram_net.txt \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_net.txt_a0:system/vendor/etc/wifi/nvram_net.txt_a0 \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_net.txt_a0_r10:system/vendor/etc/wifi/nvram_net.txt_a0_r10 \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_net.txt_r10:system/vendor/etc/wifi/nvram_net.txt_r10 \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_net.txt_wisol:system/vendor/etc/wifi/nvram_net.txt_wisol \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/nvram_net.txt_wisol_r10:system/vendor/etc/wifi/nvram_net.txt_wisol_r10 \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/olsrd.conf:system/vendor/etc/wifi/olsrd.conf \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/vendor/etc/wifi/p2p_supplicant_overlay.conf \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/wpa_supplicant.conf:system/vendor/etc/wifi/wpa_supplicant.conf \
+    vendor/samsung/tblte-common/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/vendor/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so
