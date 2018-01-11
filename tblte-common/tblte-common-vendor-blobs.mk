@@ -394,5 +394,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/etc/wifi/olsrd.conf:system/vendor/etc/wifi/olsrd.conf \
     vendor/samsung/tblte-common/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/vendor/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/samsung/tblte-common/proprietary/etc/wifi/wpa_supplicant.conf:system/vendor/etc/wifi/wpa_supplicant.conf \
-    vendor/samsung/tblte-common/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/vendor/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/samsung/tblte-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so
+    vendor/samsung/tblte-common/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/vendor/etc/wifi/wpa_supplicant_overlay.conf
