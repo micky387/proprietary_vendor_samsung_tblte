@@ -372,6 +372,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/lib/libsensorhub.so:system/vendor/lib/libsensorhub.so \
     vendor/samsung/tblte-common/proprietary/lib/libsensorhubservice.so:system/vendor/lib/libsensorhubservice.so \
     vendor/samsung/tblte-common/proprietary/lib/hw/sensorhubs.apq8084.so:system/vendor/lib/hw/sensorhubs.apq8084.so \
+    vendor/samsung/tblte-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+    vendor/samsung/tblte-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+    vendor/samsung/tblte-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/samsung/tblte-common/proprietary/bin/olsrd:system/vendor/bin/olsrd \
     vendor/samsung/tblte-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/vendor/etc/wifi/bcmdhd_apsta.bin \
