@@ -34,7 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tblte-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/samsung/tblte-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/samsung/tblte-common/proprietary/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
-    vendor/samsung/tblte-common/proprietary/lib/libmysound.so:system/vendor/lib/libmysound.so \
+    vendor/samsung/tblte-common/proprietary/lib/libmysound.so:system/vendor/lib/soundfx/libmysound.so \
     vendor/samsung/tblte-common/proprietary/lib/libssaudio-client.so:system/vendor/lib/libssaudio-client.so \
     vendor/samsung/tblte-common/proprietary/lib/hw/audio.tms.default.so:system/vendor/lib/hw/audio.tms.default.so \
     vendor/samsung/tblte-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
